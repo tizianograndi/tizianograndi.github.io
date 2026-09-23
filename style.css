@@ -81,11 +81,34 @@ body {
   font-size: clamp(1rem, 2.4vw, 1.2rem);
   line-height: 1.6;
   max-width: 26rem;
-  margin: 0 0 2.75rem;
+  margin: 0 0 1.8rem;
 }
 
 .latin-quote em {
   font-style: italic;
+}
+
+.cv-link {
+  display: inline-block;
+  color: var(--accent);
+  background: transparent;
+  border: 1.5px solid #ffffff;
+  text-decoration: none;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: clamp(0.9rem, 2.1vw, 1rem);
+  letter-spacing: 0.02em;
+  padding: 0.55rem 1.6rem;
+  border-radius: 999px;
+  margin-bottom: 2.75rem;
+  transition: background 0.2s ease, color 0.2s ease, transform 0.15s ease;
+}
+
+.cv-link:hover,
+.cv-link:focus-visible {
+  background: rgba(53, 224, 224, 0.12);
+  color: #6ceded;
+  transform: translateY(-1px);
 }
 
 .contact p {
