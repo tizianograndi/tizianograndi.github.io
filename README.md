@@ -6,11 +6,12 @@ Sito statico composto da una landing page.
 
 ```
 .
-├── index.html                                          # Landing page
-├── style.css                                           # Fogli di stile
+├── index.html                       # Landing page
+├── style.css                        # Fogli di stile
 ├── assets/
-│   ├── favicon.svg                                      # Favicon (iniziali TG)
-│   └── tiziano-foto.png                                 # Ritratto
+│   ├── favicon.svg                   # Favicon (iniziali TG)
+│   ├── tiziano-foto.png              # Ritratto
+│   └── tiziano-grandi-cv.pdf         # Curriculum Vitae
 └── README.md
 ```
 
@@ -49,11 +50,12 @@ Static website made up of a landing page.
 
 ```
 .
-├── index.html                                          # Landing page
-├── style.css                                           # Stylesheet
+├── index.html                       # Landing page
+├── style.css                        # Stylesheet
 ├── assets/
-│   ├── favicon.svg                                      # Favicon (TG initials)
-│   └── tiziano-foto.png                                 # Portrait
+│   ├── favicon.svg                   # Favicon (TG initials)
+│   ├── tiziano-foto.png              # Portrait
+│   └── tiziano-grandi-cv.pdf         # Curriculum Vitae
 └── README.md
 ```
 
